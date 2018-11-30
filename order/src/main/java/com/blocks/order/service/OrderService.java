@@ -6,11 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.blocks.common.util.JsonUtil;
 import com.blocks.order.entity.Message;
 import com.blocks.order.entity.Order;
 import com.blocks.order.mapper.MessageMapper;
 import com.blocks.order.mapper.OrderMapper;
-import com.blocks.order.util.JsonUtil;
 
 @Service
 public class OrderService {
